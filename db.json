@@ -1,9 +1,51 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "clients": [
+                {
+                    "id": "6023bdbd6a725f7868048fe1",
+                    "name": "client 1",
+                    "taxId": "tax00001",
+                    "webPage": "http://www.client1.com",
+                    "principalPhone": "+212 6 00 00 00 01",
+                    "country": "MAR",
+                    "state": "TNG",
+                    "city": "Tanger",
+                    "addressName1": "address 1",
+                    "addressName2": "",
+                    "number": 1,
+                    "postalCode": 90000,
+                    "contracts": []
+                },
+                {
+                    "id": "6023bdbd6a725f7868048fe2",
+                    "name": "client 2",
+                    "taxId": "tax00002",
+                    "webPage": "http://www.client2.com",
+                    "principalPhone": "+212 6 00 00 00 01",
+                    "country": "MAR",
+                    "state": "TNG",
+                    "city": "Tanger",
+                    "addressName1": "address 2",
+                    "addressName2": "",
+                    "number": 2,
+                    "postalCode": 90000,
+                    "contract"s: []
+                },
+                {
+                    "id": "6023bdbd6a725f7868048fe3",
+                    "name": "client 3",
+                    "taxId": "tax00003",
+                    "webPage": "http://www.client3.com",
+                    "principalPhone": "+212 6 00 00 00 01",
+                    "country": "MAR",
+                    "state": "TNG",
+                    "city": "Tanger",
+                    "addressName1": "address 3",
+                    "addressName2": "",
+                    "number": 3,
+                    "postalCode": 90000,
+                    "contracts": []
+                }
+            ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
